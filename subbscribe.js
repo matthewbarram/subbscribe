@@ -111,6 +111,7 @@
             });
 
             settings.onClose.call();
+            _trackEvent('Email', 'closed box');
             
         });
 
@@ -163,6 +164,7 @@
 
                             });
 
+                            _trackEvent('Email', 'subscribe');
                        }
                     }
 
