@@ -152,7 +152,7 @@
                             resetFormFields()
                             $('.subbscribe-success').slideDown();
                             
-                            setTimeout(function(){ $('#subbscribe').addClass('animated fadeOut'); }, 2000);
+                            setTimeout(function(){ $('#subbscribe').addClass('animated fadeOut'); }, 6000);
                             $('#subbscribe').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
                 
                                 $('#subbscribe').remove();
